@@ -1,25 +1,23 @@
 import React from 'react'
-import AboutMe from './Components/AboutMe';
-import Github from './Components/Github';
-import Navbar from './Components/Navbar';
-import Projects from './Components/Projects';
-import { Routes } from 'react-router-dom';
-import CSS from './styles.css'
+import { Route, Routes } from 'react-router-dom'
+import HomePage from './Components/HomePage'
+import Navbar from './Components/Navbar'
+import AboutMe from './Components/AboutMe'
+import Github from './Components/Github'
+import Projects from './Components/Projects'
 
 export default function App() {
-
   return (
-    <div>
-      <AboutMe />
-      <Github />
-          <Projects />
+    <>
       <Navbar />
-    </div>
-  )
- 
-  return (
-    <div>
-      <h2>App.js functioning</h2>
-    </div>
+      <div className='container'>
+        <Routes>
+          <Route path = "/" element = {<HomePage />} />
+          <Route path = "/AboutMe" element = {<AboutMe />} />
+          <Route path = "/Github" element = {<Github />} />
+          <Route path = "/Projects" element = {<Projects />} />
+        </Routes>
+      </div>
+    </>
   )
 }
