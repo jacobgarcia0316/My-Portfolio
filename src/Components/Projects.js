@@ -4,8 +4,10 @@ import CSS from '../styles.css'
 
 export default function Projects() {
   return (
-    <div>
-      <h1>projects is up</h1>
+    <div className='projects-container'>
+      <div className='projects-text'>
+        <h1>projects is up</h1>
+      </div>
     </div>
   )
 }
