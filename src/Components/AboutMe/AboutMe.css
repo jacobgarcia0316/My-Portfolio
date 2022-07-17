@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  .container {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .about-me-text {
+    color: blue;
+  }

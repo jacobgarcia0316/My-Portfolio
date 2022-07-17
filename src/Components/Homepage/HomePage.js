@@ -1,4 +1,5 @@
 import React from 'react'
+import CSS from './HomePage.css'
 
 export default function HomePage() {
   return (

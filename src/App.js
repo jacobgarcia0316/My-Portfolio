@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import HomePage from './Components/HomePage'
-import Navbar from './Components/Navbar'
-import AboutMe from './Components/AboutMe'
-import Github from './Components/Github'
-import Projects from './Components/Projects'
+import HomePage from './Components/Homepage/HomePage'
+import Navbar from './Components/Navbar/Navbar'
+import AboutMe from './Components/AboutMe/AboutMe'
+import Github from './Components/Github/Github'
+import Projects from './Components/Projects/Projects'
 
 export default function App() {
   return (
